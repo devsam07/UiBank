@@ -1,0 +1,71 @@
+{
+  "name": "UiPathBankApp",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.9.1-preview]",
+    "UiPath.Mail.Activities": "[1.9.1-preview]",
+    "UiPath.MobileAutomation.Activities": "[20.8.0-preview]",
+    "UiPath.System.Activities": "[20.8.0-preview]",
+    "UiPath.Testing.Activities": "[1.1.3-preview]",
+    "UiPath.UIAutomation.Activities": "[20.8.0-preview]",
+    "UiPath.WebAPI.Activities": "[1.5.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.6.0.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8979d44c-392a-4e52-a82a-0d0019ac6527",
+        "fileName": "UiPath.Web\\StandardLoan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "228c0751-4907-430d-819e-43d097d920d9",
+        "fileName": "UiPath.Web\\HighVolumeLoan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6be17518-bcf0-4ec9-b655-622be62c5455",
+        "dataVariationFilePath": ".variations\\LoanQuotes_Sheet1.json",
+        "fileName": "UiPath.Web\\DataDrivenTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f6948176-28cd-4024-97f4-ef68737b85e8",
+        "fileName": "UiPath.SAP\\SAP.Fiori\\CheckOrderNumber.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2a052b71-3102-4e62-a64b-a61e40b56742",
+        "fileName": "UiPath.API\\Covid19StatsTest.xaml"
+      }
+    ]
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic"
+}

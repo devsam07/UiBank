@@ -1,0 +1,35 @@
+{
+  "GenerateCrossPlatformAttributes": false,
+  "GenerateSelectorsForInnerElements": true,
+  "Connections": [
+    {
+      "Name": "Samsung_Galaxy_S9_free",
+      "Description": null,
+      "Url": "https://dev.sam:acbe69cd-b02c-45df-a46e-56823d600733@ondemand.us-west-1.saucelabs.com:443/wd/hub",
+      "PlatformName": "Android",
+      "PlatformVersion": null,
+      "DeviceName": "OnePlus 7T Android",
+      "Capabilities": {
+        "newCommandTimeout": "0"
+      }
+    }
+  ],
+  "Applications": [
+    {
+      "Name": "ToTestApplication - My App",
+      "Description": null,
+      "Type": "App",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "app": "https://uipathtestappsto.blob.core.windows.net/testapps/TheApp.apk"
+          },
+          "StartPage": "https://www.saucedemo.com/"
+        }
+      }
+    }
+  ],
+  "NormalizeSliderValue": false,
+  "IdsMaxAllowedLength": 40,
+  "Variables": {}
+}
