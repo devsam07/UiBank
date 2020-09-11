@@ -60,6 +60,11 @@
         "editingStatus": "InProgress",
         "testCaseId": "2a052b71-3102-4e62-a64b-a61e40b56742",
         "fileName": "UiPath.API\\Covid19StatsTest.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "68856f0c-af49-4541-b61a-6feab8d16b46",
+        "fileName": "UiPath.Desktop\\LowVolumeShortTerm.xaml"
       }
     ]
   },
